@@ -19,11 +19,15 @@ Wireshark can be installed easily on Kali Linux using the terminal.
    ```bash
    sudo apt install wireshark
    ```
+   <img width="1470" alt="Screenshot 2024-11-26 at 7 05 07 PM" src="https://github.com/user-attachments/assets/8a7610fc-1972-4ace-9c19-4e9786a1c6b4">
+
 4. During installation, you may be asked whether non-superusers should be able to capture packets. Select **Yes** or configure it later.
 5. Add the current user to the Wireshark group for packet capture:
    ```bash
    sudo usermod -aG wireshark $USER
    ```
+   <img width="1470" alt="Screenshot 2024-11-26 at 7 05 07 PM" src="https://github.com/user-attachments/assets/93a4d721-6a33-4ab4-9ab2-065c5eb199f0">
+
 6. Restart your system or log out and log in for the changes to take effect.
 7. Verify the installation:
    ```bash
@@ -38,6 +42,8 @@ Wireshark is a powerful network protocol analyzer. Below are the steps I followe
   ```bash
   wireshark
   ```
+  <img width="1470" alt="Screenshot 2024-11-26 at 7 06 47 PM" src="https://github.com/user-attachments/assets/d4224f9f-2283-4aa2-9e29-5301359abae5">
+
 - Alternatively, use the application menu to open it.
 
 ### **2. Capturing Packets**
@@ -52,6 +58,8 @@ To analyze specific traffic:
   ```bash
   tls.handshake.type == 1
   ```
+  <img width="1470" alt="Screenshot 2024-11-26 at 7 14 56 PM" src="https://github.com/user-attachments/assets/2977c598-b527-45ab-bb90-5d585a6bb327">
+
   This filter shows TLS Client Hello packets, which can be used to identify the destination IP address of the website you loaded.
 
 ### **4. Extracting the Destination IP**
