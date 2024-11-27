@@ -26,7 +26,8 @@ Wireshark can be installed easily on Kali Linux using the terminal.
    ```bash
    sudo usermod -aG wireshark $USER
    ```
-   <img width="1470" alt="Screenshot 2024-11-26 at 7 05 07 PM" src="https://github.com/user-attachments/assets/93a4d721-6a33-4ab4-9ab2-065c5eb199f0">
+  <img width="1470" alt="Screenshot 2024-11-26 at 7 29 30 PM" src="https://github.com/user-attachments/assets/1f541fc2-58b2-4789-99e2-099cb7125c5a">
+
 
 6. Restart your system or log out and log in for the changes to take effect.
 7. Verify the installation:
